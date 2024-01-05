@@ -1,38 +1,122 @@
-.App {
-  text-align: center;
+.logolin{
+  background-color: #5093E2;
+  margin-left: 2px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.linkedin{
+  width: 24px;
+  height: 8px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-evenly;
+  
+  background-color: #5093E2;
+  border-radius: 1.5px;
   align-items: center;
+  color: #FFFFFF;
+  font-family: "inter",sans-serif;
+}
+.text{
+  font-size: 3px;
+  margin-right: 3px;
+}
+.laura{
+  width: 70px;
+  height: 70px;
+  
+}
+.App{
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+.container2{
+  width: 70px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #1A1B21;
+  padding-top: 4px;
+  padding-bottom: 0px;
+}
+.email{
+  background-color: #FFFFFF;
+  width: 24px;
+  height: 8px;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 1.5px;
+  align-items: center;
+}
+.logoml{
+  color: #374151;
+
+}
+.name{
+  font-size: 5px;
+  background-color: #1A1B21;
+  width: 70px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color:#FFFFFF;
+  font-family: "inter",sans-serif;
+  padding-top: 4px;
+}
+.desig{
+  font-size: 2.3px;
+  background-color: #1A1B21;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  color: #F3BF99;
+  font-family: "inter",sans-serif;
+  padding-top: 1.4px;
+}
+.web{
+  font-size: 2px;
+  background-color: #1A1B21;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  color: #F5F5F5;
+  font-family: "inter",sans-serif;
+  padding-top: 2px;
+}
+.about{
+  font-size: 2px;
+  background-color: #1A1B21;
+  width: 60px;
+  flex-direction: column;
+  color: #F5F5F5;
+  font-family: "inter",sans-serif;
+  padding-top: 4px;
+  padding-left: 6px;
+  padding-right: 4px;
+  padding-bottom:1px;
 }
 
-.App-link {
-  color: #61dafb;
+.interest{
+  font-size: 2px;
+  background-color: #1A1B21;
+  width: 60px;
+  flex-direction: column;
+  color: #F5F5F5;
+  font-family: "inter",sans-serif;
+  padding-top: 2px;
+  padding-left: 6px;
+  padding-right: 4px;
+  padding-bottom: 6px;
 }
+.handle{
+  background-color: #161619;
+  width: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 0px 0px 4px 4px;
+}
+.logoin{
+  background-color: #161619;
+  color: #918E9B;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
