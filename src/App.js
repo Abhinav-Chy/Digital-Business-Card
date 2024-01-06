@@ -7,7 +7,7 @@ import { CiInstagram } from "react-icons/ci";
 import { FaSquareGithub } from "react-icons/fa6";
 import { FaInstagramSquare } from "react-icons/fa";
 
-import img from "./Rectangle 90.png";
+ import img from "./Rectangle 90.png";
 // import img from "./Abhinav photo.jpg"
 function App() {
   return (
